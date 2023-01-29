@@ -1,0 +1,6 @@
+sudo apt update && sudo apt upgrade
+sudo apt install libx11-6 libgtk2.0-0 libgtk-3-0 libxkbfile1 libsecret-1-0
+wget https://update.code.visualstudio.com/latest/linux-deb-x64/stable -O vscode.deb
+sudo dpkg -i vscode.deb
+sudo apt install -f
+code
